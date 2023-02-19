@@ -1,0 +1,13 @@
+name: If-execute
+version: '${project.version}'
+main: ch.hutch79.Main
+api-version: 1.13
+authors: [ Hutch79 ]
+description: F-Command executes a command if the Player switches his/here offhand
+website: https://hutch79.ch/
+commands:
+  ifcmd:
+    aliases: ifcommad
+    permission: ifcmd.admin
+softdepend:
+  - PlaceholderAPI
