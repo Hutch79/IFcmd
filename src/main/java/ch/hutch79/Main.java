@@ -28,7 +28,7 @@ public final class Main extends JavaPlugin {
         Objects.requireNonNull(getCommand("ifmcd")).setExecutor(new Command());
         Objects.requireNonNull(getCommand("ifmcd")).setTabCompleter(new CommandTab());
 
-        Metrics metrics = new Metrics(this, 17738); // bStats
+        Metrics metrics = new Metrics(this, 17768); // bStats
         final int SPIGOT_RESOURCE_ID = 108009; // Update checker
 
         new UpdateChecker(this, UpdateCheckSource.SPIGET, "" + SPIGOT_RESOURCE_ID + "")
